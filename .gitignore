@@ -1,8 +1,44 @@
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
-.env
+*.py[cod]
+*$py.class
+
+# Virtual environment
 .venv/
-dist/
+env/
+venv/
+
+# Environment variables / secrets
+.env
+.env.*
+
+# Build / distribution
 build/
-output/
+dist/
+*.egg-info/
+
+# Jupyter / notebooks
 .ipynb_checkpoints/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDE / editor settings
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+
+# Project-specific
+# SQLite database for tracker
+db/tracker.db
+
+# Generated HTML tracker (if you don't want it in repo)
+tracker.html
+
+# Outputs / temp dirs if you add them
+output/
+tmp/
